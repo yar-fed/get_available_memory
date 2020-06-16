@@ -9,8 +9,8 @@ int main(void)
     char buff[64];
     fgets(buff, 64, meminfo);
     fgets(buff, 64, meminfo);
+    fgets(buff, 64, meminfo);
     fclose(meminfo);
-    long int a;
     printf("%ld kB\n", findNumber(buff));
 
     return 0;
